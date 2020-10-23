@@ -6,8 +6,8 @@ class App extends React.Component {
     render = () => {
         return (
             <>
-                <p>{JSON.stringify(okayExport)}</p>
-                <p>{JSON.stringify(sketchyExport)}</p>
+                <p>{okayExport}</p>
+                <p>{sketchyExport}</p>
             </>
         );
     };

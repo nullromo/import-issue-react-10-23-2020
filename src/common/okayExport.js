@@ -1,3 +1,3 @@
 ((exports) => {
-    exports.okayExport = { okay: 'frog' };
+    exports.okayExport = 'frog';
 })(typeof exports === 'undefined' ? {} : exports);

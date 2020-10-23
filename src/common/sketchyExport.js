@@ -1,5 +1,5 @@
 const randomThingy = { ['soda']: 'wizard' };
 
 ((exports) => {
-    exports.sketchyExport = { sketchy: 'lemon' };
+    exports.sketchyExport = 'lemon';
 })(typeof exports === 'undefined' ? {} : exports);
