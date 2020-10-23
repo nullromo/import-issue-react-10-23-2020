@@ -1,4 +1,4 @@
-const randomThingy = { ['soda']: 'wizard' };
+const randomThingy = { ['soda']: 'wizard' }; // <== Problematic line
 
 ((exports) => {
     exports.sketchyExport = 'lemon';
